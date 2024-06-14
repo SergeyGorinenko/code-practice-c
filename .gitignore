@@ -1,0 +1,9 @@
+# VS Code
+.DS_Store
+.vscode/
+*.code-workspace
+
+# XCode
+[Xx]cuserdata/
+Pods/
+
