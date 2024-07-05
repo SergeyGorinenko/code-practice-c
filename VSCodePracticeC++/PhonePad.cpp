@@ -1,12 +1,17 @@
-#include "PhonePad.h"
+//
+//  PhonePad.cpp
+//  XCodePracticeC++
+//
+//  Created by Serhii Horinenko on 13.06.2024.
+//
+
+#include "PhonePad.hpp"
+#include <stdio.h>
 #include <iostream>
 #include <map>
 #include <vector>
 
-PhonePad::PhonePad() {
-}
-
-const map<char, string> keysMap = {
+const std::map<char, std::string> keysMap = {
     {'2', "abc"},
     {'3', "def"},
     {'4', "ghi"},
@@ -17,34 +22,50 @@ const map<char, string> keysMap = {
     {'9', "wxyz"}
 };
 
-vector<string> PhonePad::allLetterCombinations(const string digits) {
+PhonePad::PhonePad() {
+}
+
+std::vector<std::string> PhonePad::allLetterCombinations(const std::string digits) {
     return mappingDigit(0, digits, "");
 }
 
-vector<string> PhonePad::mappingDigit(size_t atIndex, const string digits, string prevMapped) {
+std::vector<std::string> PhonePad::mappingDigit(size_t atIndex, const std::string digits, std::string prevMapped) {
     char digit = digits[atIndex];
     auto key = keysMap.find(digit);
     
     if (key == keysMap.end()) {
-        string message = "Digits contain incorrect character '";
+        std::string message = "Digits contain incorrect character '";
         message = message + digit + "'!";
-        throw runtime_error(message);
+        throw std::runtime_error(message);
     }
-    string letters = key->second;
+    std::string letters = key->second;
     
-    vector<string> resultMapping;
+    std::vector<std::string> resultMapping;
 
     for (size_t index = 0; index < letters.length(); index++) {
         char letter = letters[index];
-        string currMapped = prevMapped + letter;
+        std::string currMapped = prevMapped + letter;
 
         if (atIndex == digits.length() - 1) {
             resultMapping.insert(resultMapping.end(), currMapped);
         } else {
-            vector<string> mapped = mappingDigit(atIndex + 1, digits, currMapped);
+            std::vector<std::string> mapped = mappingDigit(atIndex + 1, digits, currMapped);
             resultMapping.insert(resultMapping.end(), mapped.begin(), mapped.end());
         }
     }
 
     return resultMapping;
+}
+
+void test() {
+    // PhonePad task
+    try {
+        PhonePad pad;
+        std::vector<std::string> allCombinations = pad.allLetterCombinations("234");
+        for (const auto& combination : allCombinations) {
+            std::cout << combination << "\n" << std::endl;
+        }
+    } catch (const std::runtime_error& e) {
+        std::cout << "Caught an exception: " << e.what() << std::endl;
+    }
 }
