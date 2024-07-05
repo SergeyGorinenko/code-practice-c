@@ -10,15 +10,13 @@
 
 #include <string>
 
-using namespace std;
-
 class PhonePad {
 public:
     PhonePad();
-    vector<string> allLetterCombinations(const string digits);
+    std::vector<std::string> allLetterCombinations(const std::string digits);
 
 private:
-    vector<string> mappingDigit(size_t atIndex, const string digits, string prevMapping);
+    std::vector<std::string> mappingDigit(size_t atIndex, const std::string digits, std::string prevMapping);
 };
 
 
