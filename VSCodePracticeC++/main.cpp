@@ -7,11 +7,13 @@
 
 #include <iostream>
 #include "TwoSum.hpp"
+#include "BestTimeToBuyAndSellStock.hpp"
 
 int main(int argc, const char * argv[]) {
 
     // ---=== < Array >===---
     TwoSum().test();
-    
+    BestTimeToBuyAndSellStock().text();
+
     return 0;
 }
