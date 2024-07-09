@@ -8,9 +8,6 @@
 #ifndef TwoSum_hpp
 #define TwoSum_hpp
 
-#include <stdio.h>
-#include <vector>
-
 /*
  Leetcode 1. Two Sum
  Level: Easy
@@ -40,6 +37,9 @@
  • -10^9 ≤ target ≤ 10^9
  • Only one valid answer exists.
  */
+
+#include <stdio.h>
+#include <vector>
 
 class TwoSum {
 public:

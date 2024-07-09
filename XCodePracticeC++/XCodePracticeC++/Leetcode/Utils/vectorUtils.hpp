@@ -11,8 +11,8 @@
 #include <stdio.h>
 #include <vector>
 
-template<typename T>
-std::string joinVector(const std::vector<T>& vec, const std::string& delimiter);
+//template<typename T>
+//std::string joinVector(const std::vector<T>& vec, const std::string& delimiter);
 
 std::string joinVector(const std::vector<int>& vec, const std::string& delimiter);
 

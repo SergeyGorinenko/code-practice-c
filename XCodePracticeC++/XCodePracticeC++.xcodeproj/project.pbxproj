@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150EA8542C3CE083007008DD /* BestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 150EA8512C3CDCDF007008DD /* BestTimeToBuyAndSellStock.cpp */; };
 		1522B2242C1B84CB00FD995D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1522B2232C1B84CB00FD995D /* main.cpp */; };
 		1522B22C2C1B850000FD995D /* PhonePad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1522B22A2C1B850000FD995D /* PhonePad.cpp */; };
 		1593B5532C371D3700B2DB9F /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1593B5512C371D3700B2DB9F /* TwoSum.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		150EA8512C3CDCDF007008DD /* BestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
+		150EA8522C3CDCDF007008DD /* BestTimeToBuyAndSellStock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BestTimeToBuyAndSellStock.hpp; sourceTree = "<group>"; };
 		1522B2202C1B84CB00FD995D /* XCodePracticeC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XCodePracticeC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1522B2232C1B84CB00FD995D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1522B22A2C1B850000FD995D /* PhonePad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhonePad.cpp; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		1593B5502C371D1400B2DB9F /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				150EA8522C3CDCDF007008DD /* BestTimeToBuyAndSellStock.hpp */,
+				150EA8512C3CDCDF007008DD /* BestTimeToBuyAndSellStock.cpp */,
 				1593B5522C371D3700B2DB9F /* TwoSum.hpp */,
 				1593B5512C371D3700B2DB9F /* TwoSum.cpp */,
 			);
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150EA8542C3CE083007008DD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				1522B22C2C1B850000FD995D /* PhonePad.cpp in Sources */,
 				1593B5532C371D3700B2DB9F /* TwoSum.cpp in Sources */,
 				1593B5572C37328F00B2DB9F /* vectorUtils.cpp in Sources */,
