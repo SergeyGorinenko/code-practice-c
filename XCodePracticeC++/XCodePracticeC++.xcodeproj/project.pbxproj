@@ -10,6 +10,7 @@
 		1547861A2C404EB700A01644 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786122C404EB700A01644 /* main.cpp */; };
 		1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786162C404EB700A01644 /* TwoSum.cpp */; };
 		1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786182C404EB700A01644 /* vectorUtils.cpp */; };
+		157867FE2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157867FC2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		154786162C404EB700A01644 /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		154786182C404EB700A01644 /* vectorUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vectorUtils.cpp; sourceTree = "<group>"; };
 		154786192C404EB700A01644 /* vectorUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vectorUtils.hpp; sourceTree = "<group>"; };
+		157867FC2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
+		157867FD2C40529F00326057 /* BestTimeToBuyAndSellStock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BestTimeToBuyAndSellStock.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		154786142C404EB700A01644 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				157867FC2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp */,
+				157867FD2C40529F00326057 /* BestTimeToBuyAndSellStock.hpp */,
 				154786152C404EB700A01644 /* TwoSum.hpp */,
 				154786162C404EB700A01644 /* TwoSum.cpp */,
 			);
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */,
+				157867FE2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */,
 				1547861A2C404EB700A01644 /* main.cpp in Sources */,
 			);
