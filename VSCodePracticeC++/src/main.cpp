@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
 
     // ---=== < Array >===---
-    TwoSum().test();
+    TwoSum::test();
     
     return 0;
 }

@@ -44,8 +44,8 @@
 class TwoSum {
 public:
     TwoSum();
+    static void test();
     std::vector<int> twoSum(std::vector<int>& nums, int target);
-    void test();
 };
 
 #endif /* TwoSum_hpp */

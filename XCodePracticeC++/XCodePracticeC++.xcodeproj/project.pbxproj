@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1522B2242C1B84CB00FD995D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1522B2232C1B84CB00FD995D /* main.cpp */; };
-		1522B22C2C1B850000FD995D /* PhonePad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1522B22A2C1B850000FD995D /* PhonePad.cpp */; };
-		1593B5532C371D3700B2DB9F /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1593B5512C371D3700B2DB9F /* TwoSum.cpp */; };
-		1593B5572C37328F00B2DB9F /* vectorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1593B5552C37328F00B2DB9F /* vectorUtils.cpp */; };
+		1547861A2C404EB700A01644 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786122C404EB700A01644 /* main.cpp */; };
+		1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786162C404EB700A01644 /* TwoSum.cpp */; };
+		1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786182C404EB700A01644 /* vectorUtils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +26,11 @@
 
 /* Begin PBXFileReference section */
 		1522B2202C1B84CB00FD995D /* XCodePracticeC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XCodePracticeC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1522B2232C1B84CB00FD995D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1522B22A2C1B850000FD995D /* PhonePad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhonePad.cpp; sourceTree = "<group>"; };
-		1522B22B2C1B850000FD995D /* PhonePad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhonePad.hpp; sourceTree = "<group>"; };
-		1593B5512C371D3700B2DB9F /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
-		1593B5522C371D3700B2DB9F /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
-		1593B5552C37328F00B2DB9F /* vectorUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vectorUtils.cpp; sourceTree = "<group>"; };
-		1593B5562C37328F00B2DB9F /* vectorUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vectorUtils.hpp; sourceTree = "<group>"; };
+		154786122C404EB700A01644 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../VSCodePracticeC++/src/main.cpp"; sourceTree = "<group>"; };
+		154786152C404EB700A01644 /* TwoSum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
+		154786162C404EB700A01644 /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
+		154786182C404EB700A01644 /* vectorUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vectorUtils.cpp; sourceTree = "<group>"; };
+		154786192C404EB700A01644 /* vectorUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vectorUtils.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,39 +63,39 @@
 		1522B2222C1B84CB00FD995D /* XCodePracticeC++ */ = {
 			isa = PBXGroup;
 			children = (
-				1593B54F2C371D0500B2DB9F /* Leetcode */,
-				1522B2232C1B84CB00FD995D /* main.cpp */,
-				1522B22B2C1B850000FD995D /* PhonePad.hpp */,
-				1522B22A2C1B850000FD995D /* PhonePad.cpp */,
+				154786132C404EB700A01644 /* Leetcode */,
+				154786172C404EB700A01644 /* utils */,
+				154786122C404EB700A01644 /* main.cpp */,
 			);
 			path = "XCodePracticeC++";
 			sourceTree = "<group>";
 		};
-		1593B54F2C371D0500B2DB9F /* Leetcode */ = {
+		154786132C404EB700A01644 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				1593B5542C372D2800B2DB9F /* Utils */,
-				1593B5502C371D1400B2DB9F /* Array */,
+				154786142C404EB700A01644 /* Array */,
 			);
-			path = Leetcode;
+			name = Leetcode;
+			path = "../../VSCodePracticeC++/src/Leetcode";
 			sourceTree = "<group>";
 		};
-		1593B5502C371D1400B2DB9F /* Array */ = {
+		154786142C404EB700A01644 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				1593B5522C371D3700B2DB9F /* TwoSum.hpp */,
-				1593B5512C371D3700B2DB9F /* TwoSum.cpp */,
+				154786152C404EB700A01644 /* TwoSum.hpp */,
+				154786162C404EB700A01644 /* TwoSum.cpp */,
 			);
 			path = Array;
 			sourceTree = "<group>";
 		};
-		1593B5542C372D2800B2DB9F /* Utils */ = {
+		154786172C404EB700A01644 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				1593B5562C37328F00B2DB9F /* vectorUtils.hpp */,
-				1593B5552C37328F00B2DB9F /* vectorUtils.cpp */,
+				154786182C404EB700A01644 /* vectorUtils.cpp */,
+				154786192C404EB700A01644 /* vectorUtils.hpp */,
 			);
-			path = Utils;
+			name = utils;
+			path = "../../VSCodePracticeC++/src/utils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1522B22C2C1B850000FD995D /* PhonePad.cpp in Sources */,
-				1593B5532C371D3700B2DB9F /* TwoSum.cpp in Sources */,
-				1593B5572C37328F00B2DB9F /* vectorUtils.cpp in Sources */,
-				1522B2242C1B84CB00FD995D /* main.cpp in Sources */,
+				1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */,
+				1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */,
+				1547861A2C404EB700A01644 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
