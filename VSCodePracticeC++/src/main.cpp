@@ -6,11 +6,13 @@
 //
 
 #include <iostream>
+#include "ContainsDuplicate.hpp"
 #include "TwoSum.hpp"
 
 int main(int argc, const char * argv[]) {
 
     // ---=== < Array >===---
+    ContainsDuplicate::test();
     TwoSum::test();
     
     return 0;
