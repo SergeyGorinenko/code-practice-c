@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150EE72C2C405BE2003B3E29 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 150EE72A2C405BE2003B3E29 /* ContainsDuplicate.cpp */; };
 		1547861A2C404EB700A01644 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786122C404EB700A01644 /* main.cpp */; };
 		1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786162C404EB700A01644 /* TwoSum.cpp */; };
 		1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786182C404EB700A01644 /* vectorUtils.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		150EE72A2C405BE2003B3E29 /* ContainsDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContainsDuplicate.cpp; sourceTree = "<group>"; };
+		150EE72B2C405BE2003B3E29 /* ContainsDuplicate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContainsDuplicate.hpp; sourceTree = "<group>"; };
 		1522B2202C1B84CB00FD995D /* XCodePracticeC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XCodePracticeC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154786122C404EB700A01644 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../VSCodePracticeC++/src/main.cpp"; sourceTree = "<group>"; };
 		154786152C404EB700A01644 /* TwoSum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 		154786142C404EB700A01644 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				150EE72B2C405BE2003B3E29 /* ContainsDuplicate.hpp */,
+				150EE72A2C405BE2003B3E29 /* ContainsDuplicate.cpp */,
 				154786152C404EB700A01644 /* TwoSum.hpp */,
 				154786162C404EB700A01644 /* TwoSum.cpp */,
 			);
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150EE72C2C405BE2003B3E29 /* ContainsDuplicate.cpp in Sources */,
 				1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */,
 				1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */,
 				1547861A2C404EB700A01644 /* main.cpp in Sources */,
