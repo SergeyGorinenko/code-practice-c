@@ -1,6 +1,6 @@
 # VS Code
 .DS_Store
-.vscode/
+#.vscode/
 *.code-workspace
 build/
 
