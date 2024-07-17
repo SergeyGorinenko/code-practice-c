@@ -12,6 +12,7 @@
 		1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786162C404EB700A01644 /* TwoSum.cpp */; };
 		1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 154786182C404EB700A01644 /* vectorUtils.cpp */; };
 		157867FE2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157867FC2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp */; };
+		15E69D652C41E69900225C13 /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15E69D632C41E69900225C13 /* ProductOfArrayExceptSelf.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		154786192C404EB700A01644 /* vectorUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vectorUtils.hpp; sourceTree = "<group>"; };
 		157867FC2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
 		157867FD2C40529F00326057 /* BestTimeToBuyAndSellStock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BestTimeToBuyAndSellStock.hpp; sourceTree = "<group>"; };
+		15E69D632C41E69900225C13 /* ProductOfArrayExceptSelf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProductOfArrayExceptSelf.cpp; sourceTree = "<group>"; };
+		15E69D642C41E69900225C13 /* ProductOfArrayExceptSelf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProductOfArrayExceptSelf.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				157867FD2C40529F00326057 /* BestTimeToBuyAndSellStock.hpp */,
 				150EE72B2C405BE2003B3E29 /* ContainsDuplicate.hpp */,
 				150EE72A2C405BE2003B3E29 /* ContainsDuplicate.cpp */,
+				15E69D642C41E69900225C13 /* ProductOfArrayExceptSelf.hpp */,
+				15E69D632C41E69900225C13 /* ProductOfArrayExceptSelf.cpp */,
 				154786152C404EB700A01644 /* TwoSum.hpp */,
 				154786162C404EB700A01644 /* TwoSum.cpp */,
 			);
@@ -168,6 +173,7 @@
 				150EE72C2C405BE2003B3E29 /* ContainsDuplicate.cpp in Sources */,
 				1547861B2C404EB700A01644 /* TwoSum.cpp in Sources */,
 				157867FE2C40529F00326057 /* BestTimeToBuyAndSellStock.cpp in Sources */,
+				15E69D652C41E69900225C13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				1547861C2C404EB700A01644 /* vectorUtils.cpp in Sources */,
 				1547861A2C404EB700A01644 /* main.cpp in Sources */,
 			);
